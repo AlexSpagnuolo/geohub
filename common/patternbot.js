@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Test/Library/Mobile Documents/com~apple~CloudDocs/Year 2/Semester 5/Web Development IV/Week 10 - Home page template/geohub
- * @version 1521722228492
+ * @version 1521722597525
  */
-const patternManifest_1521722228492 = {
+const patternManifest_1521722597524 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -620,7 +620,13 @@ const patternManifest_1521722228492 = {
       "/Users/Test/Library/Mobile Documents/com~apple~CloudDocs/Year 2/Semester 5/Web Development IV/Week 10 - Home page template/geohub/patterns/header",
       "/Users/Test/Library/Mobile Documents/com~apple~CloudDocs/Year 2/Semester 5/Web Development IV/Week 10 - Home page template/geohub/patterns/links"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/Test/Library/Mobile Documents/com~apple~CloudDocs/Year 2/Semester 5/Web Development IV/Week 10 - Home page template/geohub/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -840,5 +846,5 @@ const patternManifest_1521722228492 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521722228492);
+patternBotIncludes(patternManifest_1521722597524);
 }());
