@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Test/Library/Mobile Documents/com~apple~CloudDocs/Year 2/Semester 5/Web Development IV/Week 10 - Home page template/geohub
- * @version 1521723788475
+ * @version 1521723901889
  */
-const patternManifest_1521723788475 = {
+const patternManifest_1521723901888 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -846,5 +846,5 @@ const patternManifest_1521723788475 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521723788475);
+patternBotIncludes(patternManifest_1521723901888);
 }());
